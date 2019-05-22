@@ -1,0 +1,55 @@
+actions:
+- utter_abstract
+- utter_length
+- utter_goodbye
+- utter_ask_other_questions
+- action_recommend_session
+- utter_ask_relevant_audience
+- utter_speaker
+- utter_thanks
+- utter_greet
+- utter_out_of_scope
+entities:
+- relevant_audience
+intents:
+- thanks
+- goodbye
+- greet
+- recommend_session
+- speaker
+- length
+- abstract
+- speaker+length
+- out-of-scope
+- inform
+slots:
+  abstract:
+    type: unfeaturized
+  length:
+    type: unfeaturized
+  relevant_audience:
+    type: text
+  speaker:
+    type: unfeaturized
+  venue:
+    type: unfeaturized
+templates:
+  utter_abstract:
+  - text: '{abstract}'
+  utter_ask_other_questions:
+  - text: Would you like to know anything else?
+  utter_ask_relevant_audience:
+  - text: What would be the relevant audience?
+  utter_goodbye:
+  - text: See you later
+  utter_greet:
+  - text: Hey! I am a conference assistant. I can help you find the sessions to attend,
+      or answer conference-related questions.
+  utter_length:
+  - text: The session is {length}
+  utter_out_of_scope:
+  - text: Sorry, I can't help you with that
+  utter_speaker:
+  - text: The speaker is {speaker}.
+  utter_thanks:
+  - text: You are very welcome!

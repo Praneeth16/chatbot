@@ -1,0 +1,7 @@
+rasa_nlu[tensorflow]
+rasa_core
+pandas
+service_identity
+jupyter
+spacy
+rasa

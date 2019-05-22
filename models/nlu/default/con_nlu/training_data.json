@@ -1,0 +1,540 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "abstract",
+        "text": "Show me the abstract"
+      },
+      {
+        "intent": "abstract",
+        "text": "Can you give me more details about this talk?"
+      },
+      {
+        "intent": "abstract",
+        "text": "Is there a description of this presetnation?"
+      },
+      {
+        "intent": "abstract",
+        "text": "Can you show me an abstract of this talk?"
+      },
+      {
+        "intent": "abstract",
+        "text": "Show me the abstract, please"
+      },
+      {
+        "intent": "abstract",
+        "text": "Can you show me the summary of the talk?"
+      },
+      {
+        "intent": "abstract",
+        "text": "What this talk will be about?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cu later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "yeah, bye"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "gm"
+      },
+      {
+        "intent": "greet",
+        "text": "hoi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bud"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 18,
+            "value": "DS",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "to Data Scientists"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 38,
+            "value": "ML",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "relevant to machine learning engineers"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "product",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "for product people"
+      },
+      {
+        "intent": "length",
+        "text": "How long is the session?"
+      },
+      {
+        "intent": "length",
+        "text": "And what's the length of this?"
+      },
+      {
+        "intent": "length",
+        "text": "How long is this session?"
+      },
+      {
+        "intent": "length",
+        "text": "Can you tell me how long this session is?"
+      },
+      {
+        "intent": "length",
+        "text": "Is the session long?"
+      },
+      {
+        "intent": "length",
+        "text": "Is the session short?"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "I want pizza"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "please help with my ice cream it's dripping"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "i want a non dripping ice cream"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "hey little mama let em whisper in your ear"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "someone call the police i think the bot died"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "show me a picture of a chicken"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "neither"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "I want french cuisine"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "i am hungry"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "restaurants"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "restaurant"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "you're a loser lmao"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "can i be shown a gluten free restaurant"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "i don't care!!!!"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "i do not care how are you"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "again?"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "oh wait i gave you my work email address can i change it?"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "hang on let me find it"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "stop it, i do not care!!!"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "really? you're so touchy?"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "how come?"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "I changed my mind"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "what?"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "did i break you"
+      },
+      {
+        "intent": "out-of-scope",
+        "text": "where is the food"
+      },
+      {
+        "intent": "recommend_session",
+        "entities": [
+          {
+            "start": 41,
+            "end": 56,
+            "value": "data scientists",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "What presentation would you recommend to data scientists?"
+      },
+      {
+        "intent": "recommend_session",
+        "entities": [
+          {
+            "start": 38,
+            "end": 54,
+            "value": "ML",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "Which talks are relevant to people in Machine Learning field?"
+      },
+      {
+        "intent": "recommend_session",
+        "entities": [
+          {
+            "start": 12,
+            "end": 27,
+            "value": "product manager",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "I work as a product manager. What sessions would you recommend for me to attend today?"
+      },
+      {
+        "intent": "recommend_session",
+        "entities": [
+          {
+            "start": 41,
+            "end": 57,
+            "value": "ML",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "Are the any talks you could recommend to machine learning folks to attend tomorrow?"
+      },
+      {
+        "intent": "recommend_session",
+        "entities": [
+          {
+            "start": 34,
+            "end": 44,
+            "value": "developers",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "Which talks today are relevant to developers?"
+      },
+      {
+        "intent": "recommend_session",
+        "entities": [
+          {
+            "start": 41,
+            "end": 57,
+            "value": "ML",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "Which talks are relevant to beginners in machine learning?"
+      },
+      {
+        "intent": "recommend_session",
+        "entities": [
+          {
+            "start": 27,
+            "end": 42,
+            "value": "DS",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "Recommend me a session for data scientists?"
+      },
+      {
+        "intent": "recommend_session",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "ML",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "help me with some machine learning sessions"
+      },
+      {
+        "intent": "recommend_session",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "DS",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "help me with some data science sessions"
+      },
+      {
+        "intent": "recommend_session",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "Data Science",
+            "entity": "relevant_audience"
+          }
+        ],
+        "text": "Are there any good Data Science session"
+      },
+      {
+        "intent": "speaker",
+        "text": "Who is the speaker?"
+      },
+      {
+        "intent": "speaker",
+        "text": "And who's presenting?"
+      },
+      {
+        "intent": "speaker",
+        "text": "What's the name of the presenter?"
+      },
+      {
+        "intent": "speaker",
+        "text": "Who's presenting?"
+      },
+      {
+        "intent": "speaker",
+        "text": "Who's speaking?"
+      },
+      {
+        "intent": "speaker",
+        "text": "The name of the speaker?"
+      },
+      {
+        "intent": "speaker+length",
+        "text": "Who is the presenter? Also, how long is the talk?"
+      },
+      {
+        "intent": "speaker+length",
+        "text": "Who is the speaker and how long is the session?"
+      },
+      {
+        "intent": "speaker+length",
+        "text": "Is the session long and who is presenting?"
+      },
+      {
+        "intent": "speaker+length",
+        "text": "Do you know who is the presenter of the session? And how long is the session?"
+      },
+      {
+        "intent": "speaker+length",
+        "text": "Is the talk long and who is presenting?"
+      },
+      {
+        "intent": "speaker+length",
+        "text": "Who is the speaker? And how long is the talk?"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you."
+      },
+      {
+        "intent": "thanks",
+        "text": "very useful. thank you so much!"
+      },
+      {
+        "intent": "thanks",
+        "text": "you are the best. thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "DS",
+        "synonyms": [
+          "Data Scientists",
+          "data scientists",
+          "data science",
+          "Data Science"
+        ]
+      },
+      {
+        "value": "ML",
+        "synonyms": [
+          "machine learning engineers",
+          "Machine Learning",
+          "machine learning",
+          "Machine Learning Engineers"
+        ]
+      }
+    ]
+  }
+}
