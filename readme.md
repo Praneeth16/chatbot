@@ -35,15 +35,15 @@ Method 2-
 
 Demo Conversation-
 `
-USER: Hi
-CHATBOT: Hey! I am a conference assistant. I can help you find the sessions to attend, or answer conference-related questions.
-USER: suggest me some machine learning sessions
-CHATBOT: I would recommend you attend: Building a production-scale ML platform
-USER: length of the session?
-CHATBOT: The session is 40 min
-USER: speaker?
-CHATBOT: The speaker is YU DONG.
-USER: thanks, bye
-CHATBOT: You are very welcome!
+- USER: Hi
+- CHATBOT: Hey! I am a conference assistant. I can help you find the sessions to attend, or answer conference-related questions.
+- USER: suggest me some machine learning sessions
+- CHATBOT: I would recommend you attend: Building a production-scale ML platform
+- USER: length of the session?
+- CHATBOT: The session is 40 min
+- USER: speaker?
+- CHATBOT: The speaker is YU DONG.
+- USER: thanks, bye
+- CHATBOT: You are very welcome!
 `
 
